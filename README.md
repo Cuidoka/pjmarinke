@@ -49,5 +49,6 @@ Se quiser contribuir com ideias, novos produtos malucos ou melhorias, fique à v
 
 Se tiver dúvidas ou sugestões, me encontre no GitHub ou envie um e-mail para: contatocuidoka@hotmail.com 📧
 
-🎨 Criado com criatividade e código por Cuidoka 💜
+## 🎨 Criado com criatividade e código por Cuidoka 💜 ##
+
 [Acesse o Site aqui!](https://cuidoka.github.io/pjmarinke/)
