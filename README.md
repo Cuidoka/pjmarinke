@@ -33,11 +33,11 @@ Criar um site interativo e divertido que apresente uma nova linha de eletrônico
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/techzoo.git
+git clone https://github.com/cuidoka/pjmarinke.git
 
 Navegue até a pasta do projeto:
 
-cd techzoo
+cd pjmarinke
 
 Abra o arquivo index.html no navegador.
 
