@@ -1,4 +1,4 @@
-## 💻🐡 TechZoo - Eletrônicos Selvagens! ##
+## 💻🐡 TechZoo CDK - Eletrônicos Selvagens! ##
 
 Bem-vindo ao TechZoo!
 Aqui, a tecnologia encontra o reino animal com aparelhos eletrônicos de nomes exóticos e inusitados, como o poderoso CrocoBook (🐊 um notebook de crocodilo) e o sofisticado Salamander Watch (🦎 um relógio de salamandra)!
