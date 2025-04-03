@@ -22,7 +22,7 @@ Para dar vida ao TechZoo, utilizei:
 
 ## 🌍 Explore o Projeto ##
 
-🔗 Acesse o Site: [Coloque aqui o link do seu site]
+🔗 Acesse o Site: [[Coloque aqui o link do seu site]](https://cuidoka.github.io/pjmarinke/)
 
 📂 Repositório GitHub: [Coloque aqui o link do repositório]
 
