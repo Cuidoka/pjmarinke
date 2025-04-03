@@ -1,4 +1,4 @@
-// Enhanced Carousel Data
+
 const carouselData = [
   {
       image: "./img/salamanderwatch2.jpeg",
@@ -30,7 +30,6 @@ const carouselData = [
   }
 ];
 
-// Enhanced Carousel Initialization
 function initCarousel() {
   const carouselItems = document.querySelector('.carousel-items');
   const indicators = document.querySelector('.carousel-indicators');
@@ -74,7 +73,6 @@ function initCarousel() {
   });
 }
 
-// Enhanced Carousel Navigation
 let currentSlide = 0;
 let isAnimating = false;
 
@@ -104,7 +102,6 @@ function nextSlide() {
   goToSlide(nextIndex);
 }
 
-// Enhanced Smooth Scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
       e.preventDefault();
@@ -122,7 +119,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Enhanced Intersection Observer
 const observerOptions = {
   threshold: 0.2,
   rootMargin: '-50px'
@@ -137,13 +133,11 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, observerOptions);
 
-// Enhanced Scroll Animations
 document.querySelectorAll('.product-section, .product-card').forEach(element => {
   element.style.opacity = '0';
   observer.observe(element);
 });
 
-// Enhanced Navbar Interaction
 let lastScroll = 0;
 const navbar = document.querySelector('.navbar');
 const threshold = 50;
@@ -169,7 +163,6 @@ window.addEventListener('scroll', () => {
 });
 
 
-// Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initCarousel();
   setInterval(nextSlide, 5000);
@@ -178,12 +171,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector(".contact-form");
 
     form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Evita o recarregamento da página
+        event.preventDefault();
 
-        // Exibir uma mensagem de sucesso (opcional)
         alert("Formulário enviado com sucesso! Redirecionando...");
 
-        // Redirecionar para index.html após 2 segundos
         setTimeout(function () {
             window.location.href = "index.html";
         }, 2000);

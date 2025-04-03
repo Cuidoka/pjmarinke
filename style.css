@@ -62,7 +62,6 @@ body {
   justify-content: space-evenly;
 }
 
-/* Enhanced Navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -147,7 +146,6 @@ body {
   text-shadow: 0 0 10px var(--glow-color);
 }
 
-/* Enhanced Hero Carousel */
 .hero-carousel {
   height: 100vh;
   position: relative;
@@ -411,7 +409,6 @@ body {
   opacity: 1;
 }
 
-/* Enhanced Product Sections */
 .product-section {
   padding: 8rem 0;
   min-height: 100vh;
@@ -559,7 +556,6 @@ margin: 3px;
     background-color: #0056b3;
 }
 
-/* Enhanced Animations */
 @keyframes slideUp {
   from {
       opacity: 0;
@@ -582,7 +578,6 @@ margin: 3px;
   }
 }
 
-/* Enhanced Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
       position: fixed;
